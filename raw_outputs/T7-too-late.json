@@ -1,0 +1,27 @@
+{
+  "reply": "Under the Consumer Protection Act, a consumer complaint must be filed within 2 years from when the problem arose [CPA-LIMIT]. Since you bought the AC in 2021, the 2‑year deadline has likely passed, so filing a complaint now may be difficult unless you can show a valid reason for the delay. You could still consider sending a legal notice or contacting the National Consumer Helpline for a possible settlement.\n\nWhen exactly did the company refuse the repair?\nDid you send any written complaint or legal notice to them?\nDo you have the purchase receipt and any communication records with the seller?\n\n🧑‍⚖️ This looks like something where a real lawyer (or the District Legal Services Authority, free legal aid helpline 15100) should be involved before you act. I can still help you organise your facts and documents to take to them.",
+  "case_card": {
+    "what_happened": "Bought a faulty AC in 2021; company refused to repair it.",
+    "when": "2021",
+    "amount": "",
+    "proof_have": [],
+    "proof_missing": []
+  },
+  "used": [
+    "CPA-LIMIT"
+  ],
+  "needs_lawyer": true,
+  "topic": "consumer",
+  "guardrail_flags": [],
+  "verify_links": [
+    "https://indiacode.nic.in"
+  ],
+  "_check": {
+    "routed_ok": true,
+    "must_hit": {
+      "2 years": true,
+      "delay": true
+    },
+    "must_not_hit": {}
+  }
+}

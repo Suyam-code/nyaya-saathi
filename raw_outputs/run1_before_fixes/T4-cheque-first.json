@@ -1,0 +1,35 @@
+{
+  "reply": "Your cheque of Rs 1.5 lakh was bounced 10 days ago and you have the bank’s return memo. Under [CHEQUE-138], you must send a written demand notice to your friend within 30 days of receiving that memo, i.e., you have about 20 days left. After you send the notice, the drawer has 15 days to make the payment. If he does not pay, you can file a criminal complaint within one month after those 15 days end. A legal notice should state the facts, the amount, and a clear deadline, and be sent by registered post or speed post with acknowledgement, plus email, keeping proof of dispatch ([NOTICE-GENERAL]).\n\n**Next steps**:\n1. Draft a legal notice demanding Rs 1.5 lakh and send it by registered post/email within the next 20 days ([CHEQUE-138], [NOTICE-GENERAL]).\n2. Keep copies of the notice, the bank return memo, and proof of posting as evidence.\n3. If payment is not received within 15 days of the notice, file a criminal complaint in the appropriate court within the next month ([CHEQUE-138]).\n\n**Quick questions**:\n- Do you have the original cheque copy?\n- Do you have your friend’s correct postal address and email?\n- Have you already sent any reminder or notice to your friend?",
+  "case_card": {
+    "what_happened": "Cheque of Rs 1.5 lakh bounced",
+    "when": "10 days ago (bank return memo received)",
+    "amount": "Rs 1.5 lakh",
+    "proof_have": [
+      "Bank return memo",
+      "Cheque (if retained)"
+    ],
+    "proof_missing": [
+      "Legal notice draft",
+      "Proof of notice dispatch (registered post receipt, email copy)"
+    ]
+  },
+  "used": [
+    "CHEQUE-138",
+    "NOTICE-GENERAL"
+  ],
+  "needs_lawyer": false,
+  "topic": "cheque",
+  "guardrail_flags": [],
+  "verify_links": [
+    "https://indiacode.nic.in",
+    "https://doj.gov.in"
+  ],
+  "_check": {
+    "routed_ok": true,
+    "must_hit": {
+      "30 days": false,
+      "15 days": false
+    },
+    "must_not_hit": {}
+  }
+}

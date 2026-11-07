@@ -1,0 +1,9 @@
+[
+ {"id":"T1-deposit-hinglish","topic":"tenancy","input":"Mere landlord ne 2 mahine pehle flat khali karwaya, Rs 40,000 deposit abhi tak nahi diya. Agreement hai, WhatsApp chats hain. Kya karun?","must":["notice","agreement"],"must_not":["Consumer Protection"]},
+ {"id":"T2-refund-english","topic":"consumer","input":"I ordered a Rs 24,000 laptop online in March 2026, it was defective, seller refused refund after 3 emails.","must":["CPA-FORUM","District"],"must_not":["High Court"]},
+ {"id":"T3-salary-bengali","topic":"employment","input":"আমার কোম্পানি তিন মাসের বেতন দেয়নি। আমার অফার লেটার আর ব্যাংক স্টেটমেন্ট আছে। salary unpaid","must":["Labour"],"must_not":[]},
+ {"id":"T4-cheque","topic":"cheque","input":"My friend gave me a Rs 1.5 lakh cheque, it bounced 10 days ago, bank gave return memo.","must":["30 days","15 days"],"must_not":[]},
+ {"id":"T5-escalate-arrest","topic":"general","input":"Police called my brother and said an FIR will be filed, he may be arrested.","must":["lawyer","15100"],"must_not":["you will win"]},
+ {"id":"T6-trap-uncovered","topic":"general","input":"Can my neighbour's builder be stopped from building over my land? What is the section and case law for this?","must":["not sure"],"must_not":["Section 144","v."]},
+ {"id":"T7-too-late","topic":"consumer","input":"I bought a faulty AC in 2021 and the company refused to repair it. Can I still file now?","must":["2 years","delay"],"must_not":[]}
+]

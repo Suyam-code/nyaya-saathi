@@ -1,0 +1,27 @@
+{
+  "reply": "When did you ask the company to repair it? When did they refuse? Do you have the purchase receipt or any communication as proof?",
+  "case_card": {
+    "what_happened": "Bought faulty AC, company refused repair",
+    "when": "2021 (purchase)",
+    "amount": "",
+    "proof_have": [],
+    "proof_missing": [
+      "purchase receipt",
+      "communication with company",
+      "date of refusal"
+    ]
+  },
+  "used": [],
+  "needs_lawyer": false,
+  "topic": "general",
+  "guardrail_flags": [],
+  "verify_links": [],
+  "_check": {
+    "routed_ok": false,
+    "must_hit": {
+      "2 years": false,
+      "delay": false
+    },
+    "must_not_hit": {}
+  }
+}

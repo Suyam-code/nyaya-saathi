@@ -1,0 +1,43 @@
+{
+  "reply": "You can file a consumer complaint for the defective laptop. The complaint must be filed within 2 years from when the problem arose [CPA-LIMIT]. Since the value is Rs 24,000, you can approach the District Consumer Commission and you don’t need a lawyer [CPA-FORUM]. Before that, it’s useful to send a formal legal notice to the seller and keep proof of dispatch [NOTICE-GENERAL]. You can also try the National Consumer Helpline (1915) or write to the seller’s grievance officer – many refunds are settled at this stage [CPA-HELPLINE]. If you need free legal help, contact the Legal Services Authority or call 15100 [LEGAL-AID].\n\nNext steps:\n1. Draft a legal notice stating the defect, request refund, and give a 7‑day deadline; send by registered post and email.\n2. If no response, file a complaint on e‑Daakhil (District Consumer Commission) with purchase receipt, email threads, and the notice copy.\n3. Seek free legal aid if you need assistance preparing the notice or filing the complaint.\n\nCould you tell me:\n- Do you have the purchase receipt/invoice?\n- Have you sent a written complaint to the seller’s grievance officer?\n- Do you have copies of the email exchanges?",
+  "case_card": {
+    "what_happened": "Defective laptop purchased online, seller refused refund after emails",
+    "when": "March 2026",
+    "amount": "Rs 24,000",
+    "proof_have": [
+      "Purchase receipt/invoice (if available)",
+      "Email correspondence with seller"
+    ],
+    "proof_missing": [
+      "Written complaint to seller's grievance officer",
+      "Legal notice copy"
+    ]
+  },
+  "used": [
+    "CPA-FORUM",
+    "CPA-LIMIT",
+    "CPA-HELPLINE",
+    "NOTICE-GENERAL",
+    "LEGAL-AID"
+  ],
+  "needs_lawyer": false,
+  "topic": "consumer",
+  "guardrail_flags": [],
+  "verify_links": [
+    "https://consumerhelpline.gov.in , https://edaakhil.nic.in",
+    "https://indiacode.nic.in",
+    "https://consumerhelpline.gov.in",
+    "https://doj.gov.in",
+    "https://nalsa.gov.in"
+  ],
+  "_check": {
+    "routed_ok": true,
+    "must_hit": {
+      "CPA-FORUM": true,
+      "District": true
+    },
+    "must_not_hit": {
+      "High Court": false
+    }
+  }
+}

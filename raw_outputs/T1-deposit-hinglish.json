@@ -1,0 +1,39 @@
+{
+  "reply": "Aapke landlord ne deposit wapas nahi kiya hai. Pehle ek likhit maang (legal notice) bhejein, jisme 15 din ki deadline ho [NOTICE-GENERAL]. Agar landlord uske baad bhi nahi deta, to likhit agreement ke aadhar par Order XXXVII ke tahat summary suit file kar sakte hain. Deposit wapas pane ke liye aapke paas likhit agreement aur WhatsApp chats hain, jo saboot hain. Money‑recovery suit ka limitation period 3 saal hai, isliye der na karein [DEPOSIT-RENT]. Aap free legal aid ke liye bhi apply kar sakte hain, agar aap eligible hain [LEGAL-AID].\n\nAage ki teen kadam:\n1. Ek legal notice likhe, 15 din ki deadline ke saath, registered post/ speed post aur email se bhejein; dispatch ka proof rakhein.\n2. Agar 15 din ke baad bhi deposit na mile, to ek civil suit (summary suit) file karne ki soch lein; iske liye aapke agreement aur chats ka istemal hoga.\n3. Free legal aid ki eligibility check karein ya 15100 par sampark karein; zarurat pade to lawyer se milke case file karen.\n\nKripya kuch aur jankari dein:\n\n🧑‍⚖️ This looks like something where a real lawyer (or the District Legal Services Authority, free legal aid helpline 15100) should be involved before you act. I can still help you organise your facts and documents to take to them.",
+  "case_card": {
+    "what_happened": "Landlord ne flat khali karwane ke baad security deposit wapas nahi kiya.",
+    "when": "2 mahine pehle (exact date batayein).",
+    "amount": "Rs 40,000",
+    "proof_have": [
+      "rental agreement",
+      "WhatsApp chats"
+    ],
+    "proof_missing": [
+      "written demand/notice to landlord",
+      "proof of dispatch of notice"
+    ]
+  },
+  "used": [
+    "DEPOSIT-RENT",
+    "NOTICE-GENERAL",
+    "LEGAL-AID"
+  ],
+  "needs_lawyer": true,
+  "topic": "tenancy",
+  "guardrail_flags": [],
+  "verify_links": [
+    "https://indiacode.nic.in",
+    "https://doj.gov.in",
+    "https://nalsa.gov.in"
+  ],
+  "_check": {
+    "routed_ok": true,
+    "must_hit": {
+      "notice": true,
+      "agreement": true
+    },
+    "must_not_hit": {
+      "Consumer Protection": false
+    }
+  }
+}

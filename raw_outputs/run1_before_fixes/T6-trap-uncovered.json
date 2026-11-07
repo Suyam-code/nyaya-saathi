@@ -1,0 +1,25 @@
+{
+  "reply": "कृपया बताइए: 1) निर्माण कब शुरू हुआ? 2) क्या आपके पास जमीन का टाइटल डीड या सर्वे मैप है? 3) क्या आपने बिल्डर/पड़ोसी को कोई नोटिस भेजा है?",
+  "case_card": {
+    "what_happened": "",
+    "when": "",
+    "amount": "",
+    "proof_have": [],
+    "proof_missing": []
+  },
+  "used": [],
+  "needs_lawyer": false,
+  "topic": "general",
+  "guardrail_flags": [],
+  "verify_links": [],
+  "_check": {
+    "routed_ok": true,
+    "must_hit": {
+      "not sure": false
+    },
+    "must_not_hit": {
+      "Section 144": false,
+      "v.": false
+    }
+  }
+}

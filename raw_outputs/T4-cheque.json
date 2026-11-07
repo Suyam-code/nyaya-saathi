@@ -1,0 +1,35 @@
+{
+  "reply": "You can send a written legal notice to the cheque drawer within 30 days of getting the bank’s return memo [CHEQUE-138]. The drawer then has 15 days from receiving the notice to pay the Rs 1.5 lakh [CHEQUE-138]. If the amount is still unpaid, you may file a criminal complaint within one month after those 15 days end [CHEQUE-138]. Do you have the drawer’s current address? Have you kept a copy of the cheque and the bank’s return memo? Have you communicated with the drawer after the bounce?\n\n🧑‍⚖️ This looks like something where a real lawyer (or the District Legal Services Authority, free legal aid helpline 15100) should be involved before you act. I can still help you organise your facts and documents to take to them.",
+  "case_card": {
+    "what_happened": "Cheque of Rs 1.5 lakh bounced and bank issued return memo",
+    "when": "10 days ago",
+    "amount": "Rs 1.5 lakh",
+    "proof_have": [
+      "cheque copy",
+      "bank return memo"
+    ],
+    "proof_missing": [
+      "drawer’s address",
+      "proof of notice dispatch"
+    ]
+  },
+  "used": [
+    "CHEQUE-138",
+    "NOTICE-GENERAL"
+  ],
+  "needs_lawyer": true,
+  "topic": "cheque",
+  "guardrail_flags": [],
+  "verify_links": [
+    "https://indiacode.nic.in",
+    "https://doj.gov.in"
+  ],
+  "_check": {
+    "routed_ok": true,
+    "must_hit": {
+      "30 days": true,
+      "15 days": true
+    },
+    "must_not_hit": {}
+  }
+}
